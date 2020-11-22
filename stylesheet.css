@@ -1,0 +1,277 @@
+
+.şirket_adı{
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    text-align: right;
+    padding-top: 0rem;
+    padding-left: 0rem;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+    font-size: 5vw;
+}
+ul{
+    list-style-type: none;
+    background-color: white
+    transparent 1;
+    text-align: center;
+    position: relative;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+    font-style: inherit;
+    font-size: 2vw;
+}
+
+li a:hover{
+    background-color: greenyellow;
+}
+
+footer a:hover{
+    opacity: 0.7;
+}
+
+
+
+.active{
+    background-color: cornflowerblue;
+    color: black;
+}
+
+
+
+footer{
+    position: fixed;    
+    bottom: 0px;
+    width: 99%;
+    color: white;
+    text-align: center;
+}
+.sağ{
+    float: left;
+}
+
+#Copyright{
+    position: relative;
+    color: white;
+    float: right;
+    font-size: 2vw;
+    margin-top:0px;
+}
+
+
+.Anasayfa {
+    background-image: url("content/maria-stewart-g6DmKxFoQfE-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center,center;
+}
+
+#Biz_kimiz{
+    position: absolute;
+    left: 50px;
+    bottom: 100px;
+    color: black;
+    padding: 5px,5px,5px,5px;
+    font-size: 3vw;
+}
+.Hizmetler{
+    background-image: url("content/pexels-tom-fisk-3057960.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center,center;
+}
+.Hizmetlerimiz{
+    position: absolute;
+    top: 40%;
+    left: 10vw;
+    right: 10vw;
+    display: flex;
+}
+.Hizmet1{
+    background-color: whitesmoke;
+    background-size: cover;
+    float: left;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    text-align: center;
+}
+.Hizmet1:hover{
+    background-color: cornflowerblue;
+}
+.Hizmet_resim{
+    width: 100%;
+}
+.Hizmet2{
+    background-color: whitesmoke;
+    background-size: cover;
+    float: left;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    text-align: center;
+}
+.Hizmet2:hover{
+    background-color: cornflowerblue;
+}
+.Hizmet3{
+    background-color: whitesmoke;
+    background-size: cover;
+    float: left;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    text-align: center;
+}
+.Hizmet3:hover{
+    background-color: cornflowerblue;
+}
+
+
+.Kurumsal{
+    background-image: url("content/pexels-sevenstorm-juhaszimrus-443383.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center,center;
+}
+
+.Kurumsal_içerik{
+    position: absolute;
+    top: 35%;
+    left: 10vw;
+    right: 10vw;
+    display: flex;
+    padding-bottom: 10%;
+}
+.Tarihçe{
+    background-color: whitesmoke;
+    background-size: cover;
+    float: left;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    text-align: center;
+}
+.Tarihçe:hover{
+    background-color: cornflowerblue;
+}
+.Vizyon{
+    background-color: whitesmoke;
+    background-size: cover;
+    float: left;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    text-align: center;
+}
+.Vizyon:hover{
+    background-color: cornflowerblue;
+}
+.Misyon{
+    background-color: whitesmoke;
+    background-size: cover;
+    float: left;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    text-align: center;
+}
+.Misyon:hover{
+    background-color: cornflowerblue;
+}
+.başlık{
+    text-align: center;
+    font-size: 2vw;
+}
+
+.Kariyer{
+    background-image: url("content/pexels-fauxels-3183183.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center,center;
+}
+.İletişim{
+    background-image: url("content/pexels-chepté-cormani-1416530.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center,center;
+}
+.googlemap{
+    position: absolute;
+    top: 30%;
+    left: 50px;
+}
+
+
+
+
+@media only screen and (min-width: 0px) and (max-width: 500px){
+    .şirket_adı{
+        font-size: 10vw;
+    }
+    li a{
+        font-size: 4vw;
+    }
+    #Biz_kimiz{
+        font-size: 4vw;
+    }
+    footer{
+        font-size: 3vw;
+
+    }
+    .Hizmetlerimiz{
+        left: 0px;
+        right: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-bottom: 35%;
+    }
+    .Hizmet1{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .Hizmet3{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .Kurumsal_içerik{
+        left: 0px;
+        right: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-bottom: 35%;
+    }
+    .Tarihçe{
+        margin-left: 0px;
+        margin-right: 0px;
+        font-size: 3.5vw;
+    }
+    .Misyon{
+        margin-left: 0px;
+        margin-right: 0px;
+        font-size: 3.5vw;
+    }
+    .Vizyon{
+        margin-left: 0px;
+        margin-right: 0px;
+        font-size: 3.5vw;
+    }
+    .başlık{
+        font-size: 4vw;
+    }
+    .resim_açıklama{
+        font-size: 4vw;
+    }
+    .googlemap{
+    width: 100%;
+    }
+}
